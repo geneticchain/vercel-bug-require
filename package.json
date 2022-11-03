@@ -1,0 +1,29 @@
+{
+  "name": "vercel-bug-require",
+  "version": "0.1.0",
+  "description": "Repro memory stomping bug using require.",
+  "author": "moiz@geneticchain.io",
+  "license": "private",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "next": "^11.1.2",
+    "sharp": "0.31.1",
+    "ramda": "^0.28.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "engines": {
+    "node": "^14.16.0",
+    "yarn": "~1.22.4"
+  },
+  "devDependencies": {
+  }
+}
