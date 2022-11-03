@@ -9,13 +9,13 @@
 // static query
 //-----------------------------------------------------------------------------
 
-const getStaticProps = staticPropsWrapper(async context => {
+const getStaticProps = async context => {
   return {
     props: {
     },
     revalidate: 60 * 60 * 24
   };
-});
+};
 
 //-----------------------------------------------------------------------------
 // react components
